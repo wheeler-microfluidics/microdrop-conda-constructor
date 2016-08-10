@@ -1,0 +1,11 @@
+{
+    "menu_name": "MicroDrop",
+    "menu_items":
+        [
+            {
+                "name": "MicroDrop",
+                // "pyscript": "${PYTHON_SCRIPTS}/helloworld-script.py"
+                "webbrowser": "http://microfluidics.utoronto.ca/dropbot"
+            }
+        ]
+}

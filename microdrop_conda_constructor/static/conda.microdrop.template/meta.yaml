@@ -1,0 +1,73 @@
+package:
+  name: {{ conda_package_name }}
+  version: {{ version }}
+
+build:
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - msgpack-python = msgpack-python:main
+    #
+    # Would create an entry point called msgpack-python that calls msgpack-python.main()
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  number: 0
+
+requirements:
+  build:
+    - configobj
+    - cycler
+    - decorator
+    - functools32
+    - ipython
+    - jinja2
+    - jsonschema
+    - lxml
+    - networkx
+    - numpy
+    - pandas
+    - pycairo-gtk2
+    - pyparsing
+    - pyserial
+    - pytables
+    - python
+    - pywin32
+    - pyyaml
+    - pyzmq
+    - requests
+    - scipy
+    - setuptools
+    - sympy
+    - tornado
+
+  run:
+    - configobj
+    - cycler
+    - decorator
+    - functools32
+    - ipython
+    - jinja2
+    - jsonschema
+    - lxml
+    - networkx
+    - numpy
+    - pandas
+    - pycairo-gtk2
+    - pyparsing
+    - pyserial
+    - pytables
+    - python
+    - pywin32
+    - pyyaml
+    - pyzmq
+    - requests
+    - scipy
+    - setuptools
+    - sympy
+    - tornado
+
+about:
+  home: http://github.com/wheeler-microfluidics/microdrop
+  license: GPL
